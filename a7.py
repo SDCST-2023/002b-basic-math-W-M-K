@@ -1,5 +1,13 @@
 #!python3
 
+F = 62.5
+x = 32
+y = 0.5556
+z = F - x 
+c = z * y
+numDecimals = 1
+C = round(c, numDecimals )
+print(C)
 '''
 ##### Task 7
 Read through the file **example1.py** for information on using the math module.

@@ -1,5 +1,10 @@
 #!python3
-
+import math
+a = 5
+b = 8
+csq = a ** 2 + b ** 2
+c = math.sqrt(csq)
+print(c)
 '''
 ##### Task 8
 Read through the file **example2.py** for information on using the math module.
